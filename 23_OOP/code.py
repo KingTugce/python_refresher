@@ -13,3 +13,4 @@ student2 = Student("Rolf", (90,80,78,98,98))
 
 print(student.average_grade())
 print(student2.average_grade())
+
