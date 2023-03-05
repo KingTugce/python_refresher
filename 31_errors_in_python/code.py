@@ -8,7 +8,7 @@ def divide(dividend,divisor):
 
 Student = [
     {"name":"Bob", "grades": [99,33,86,98,100]},
-    {"name":"Rolf", "grades": [98]},
+    {"name":"Rolf", "grades": []},
     {"name":"Sarah","grades": [98,78,45,87,99]},
 ]
 
@@ -21,8 +21,8 @@ try:
         print(f"{name} averaged {average}. ")
         
 except ZeroDivisionError as e:
-    print("There are no grades yet in the list.")
+    print("ERROR: {name} has no grades yet in the list.")
 else:
-    print(f"The average grade is {average}.")
+    print("All the student average is calculated.")
 finally:
-    print("Thank you")
+    print("End of student average calculation.")
