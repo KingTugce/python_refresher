@@ -18,4 +18,4 @@ friends = [
 
 
 # print(search(friends, "Bob Smith", get_friend_name))
-print(search(friends, "Rold Smith", lambda friend: friend["name"]))
+print(search(friends, "Rold Smith", itemgetter("name")))
