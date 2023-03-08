@@ -16,6 +16,4 @@ def get_admin_password():
     return "1234"
 
 
-
-
 print(get_admin_password.__name__)
